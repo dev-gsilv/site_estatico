@@ -101,5 +101,19 @@
                 document.body.scrollTop = 0;
             };
         </script>
+    <!-- SCRIPT DE TESTE DO AMAZON CONNECT - REMOVER DPS DO TESTE-->
+    <script type="text/javascript">
+        (function(w, d, x, id){
+          s=d.createElement('script');
+          s.src='https://d10hxo0w83tp48.cloudfront.net/amazon-connect-chat-interface-client.js';
+          s.async=1;
+          s.id=id;
+          d.getElementsByTagName('head')[0].appendChild(s);
+          w[x] =  w[x] || function() { (w[x].ac = w[x].ac || []).push(arguments) };
+        })(window, document, 'amazon_connect', '44c90859-58d5-4366-9cf8-2448a391becc');
+        amazon_connect('styles', { iconType: 'CHAT', openChat: { color: '#ffffff', backgroundColor: '#12541d' }, closeChat: { color: '#ffffff', backgroundColor: '#125428'} });
+        amazon_connect('snippetId', 'QVFJREFIaDhDQnJIRDNrbGlxb01PbmxZbjFOVzhZNWVpdEZ3VEoxV09TeFRGQ3ZDb2dGdjA0cGRWVmkwTGl0TCtkMGZSU1ZEQUFBQWJqQnNCZ2txaGtpRzl3MEJCd2FnWHpCZEFnRUFNRmdHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFUVFNQmI2V3FRUVVRRjVQM3F4V0FnRVFnQ3RxS3FhdkVGYVhBa1Q0eW1FK1d4aCtVcTViR3V3V1lycjg5R0NmbWQ3NHdvbGNhUnpUZHpqZGt0c206Oi8zV3paRVEyU3c5M0E1MFB0Yi9lTVVYWEc0MHptazJobXhHYmo5azRJYkFueEd4eGVXaWhxMUQyTHpEU0tORlpOVUpZUmw3OFpYOUt4R2ZhZlBoWXYwSytGZ1Y2dFZ0WndBbTVZZGdDNThpcVVuVkxGbGhnNXBscUFLMG9nb3BSL3FVUnBoSUdBbkllWkpqQTdrdFp1T2F0dXdyT0dJOD0=');
+        amazon_connect('supportedMessagingContentTypes', [ 'text/plain', 'text/markdown', 'application/vnd.amazonaws.connect.message.interactive', 'application/vnd.amazonaws.connect.message.interactive.response' ]);
+      </script>
     </body>
 </html>
